@@ -19,7 +19,7 @@ public class CharactersCounter {
 
     public static String initializeCollections(String inputtedPhrase) {
         LinkedList<String> arrayOfCharacters = new LinkedList<>();
-        LinkedList<String> nonRepeatCharacters = new LinkedList<String>();
+        LinkedList<String> nonRepeatCharacters = new LinkedList<>();
 
         if (StringUtils.isBlank(inputtedPhrase)) {
             return "";
